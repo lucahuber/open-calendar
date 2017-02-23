@@ -14,6 +14,6 @@ app.use(express.static('./public'));
 homeController(app);
 
 // Listen to port
-var port = 3000;
-app.listen(port);
-console.log('Listening to port ' + port);
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
