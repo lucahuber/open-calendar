@@ -1,11 +1,9 @@
 {
   "name": "open-calendar",
   "version": "1.0.0",
-  "description": "",
+  "description": "An online calendar that doesn't require login or auth. You create a calendar and get a permalink. Anyone with that permalink can use the calendar.",
   "main": "app.js",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joelklingler/open-calendar.git"
@@ -15,5 +13,10 @@
   "bugs": {
     "url": "https://github.com/joelklingler/open-calendar/issues"
   },
-  "homepage": "https://github.com/joelklingler/open-calendar#readme"
+  "homepage": "https://github.com/joelklingler/open-calendar#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "ejs": "^2.5.6",
+    "express": "^4.14.1"
+  }
 }
