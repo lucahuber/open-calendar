@@ -8,26 +8,18 @@ An online calendar that doesn't require login or auth. You create a calendar and
 
 Clone repository
 ```
+// Clone repository
 git clone https://github.com/joelklingler/open-calendar
 cd open-calendar
-```
 
-Install dependencies
-```
+// Install dependencies
 npm install
-```
 
-Run the app
-```
-node app.js
-// or
-npm start
-// You can now visit the page on localhost:3000
-```
-
-Run tests
-```
-mocha tests --recursive
-// or
+// Run tests
 npm test
+
+// Run the app
+npm start
+
+// Visit localhost:3000
 ```
