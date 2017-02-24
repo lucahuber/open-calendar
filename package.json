@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "mocha tests --recursive"
+    "test": "mocha tests --recursive",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
