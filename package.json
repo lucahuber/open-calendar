@@ -28,6 +28,7 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
+    "bower": "^1.8.0",
     "chai": "^3.5.0"
   }
 }
