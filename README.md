@@ -20,5 +20,14 @@ npm install
 Run the app
 ```
 node app.js
+// or
+npm start
 // You can now visit the page on localhost:3000
+```
+
+Run tests
+```
+mocha tests --recursive
+// or
+npm test
 ```
