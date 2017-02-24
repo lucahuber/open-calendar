@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base href="/">
+    <title>Open Calendar</title>
+
+    <link rel="stylesheet" href="../libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <script src="../libs/angular/angular.min.js"></script>
+    <script src="../libs/angular-route/angular-route.min.js"></script>
+
+    <script src="../assets/js/controllers/MainController.js"></script>
+    <script src="../assets/js/controllers/CalendarController.js"></script>
+    <script src="../assets/js/services/CalendarService.js"></script>
+    <script src="../assets/js/appRoutes.js"></script>
+    <script src="../assets/js/app.js"></script>
+</head>
+<body ng-app="openCalendar" ng-controller="CalendarController">
+    <div class="container">
+
+        <!-- Header -->
+        <nav class="navbar navbar-inverse">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Open Calendar</a>
+            </div>
+
+            <!-- Page links -->
+            <ul class="nav navbar-nav">
+                <li><a href="/calendars">Calendars</a></li>
+            </ul>
+        </nav>
+
+        <!-- Dynamic angular content -->
+        <div ng-view></div>
+        
+    </div>
+</body>
+</html>

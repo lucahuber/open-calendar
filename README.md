@@ -14,6 +14,7 @@ cd open-calendar
 
 // Install dependencies
 npm install
+bower install
 
 // Run tests
 npm test
