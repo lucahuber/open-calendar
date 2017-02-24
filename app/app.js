@@ -5,6 +5,7 @@ var homeController = require('./controllers/homeController');
 var app = express();
 
 // set up template engine
+app.set('views', __dirname+'/views');
 app.set('view engine', 'ejs');
 
 // static files
