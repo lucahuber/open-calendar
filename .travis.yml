@@ -3,6 +3,9 @@ node_js:
 - "node"
 notifications:
   email: false
+before_script:
+  - npm install -g bower
+  - bower install
 deploy:
   provider: heroku
   api_key:
