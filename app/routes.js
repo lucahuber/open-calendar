@@ -5,13 +5,7 @@ module.exports = function(app) {
     
     // Backend
     app.get('/api/calendars', function(req, res) {
-        Calendar.find(function(err, calendars) {
-            if(err){
-                res.send(err);
-            }
-
-            res.json(calendars);
-        });
+        res.json({data: 'json api test'});
     });
 
     // Frontend
