@@ -1,1 +1,1 @@
-angular.module('openCalendar', ['ngRoute', 'appRoutes', 'MainController', 'CalendarController', 'CalendarService']);
+angular.module('openCalendar', ['ngRoute', 'appRoutes', 'MainCtrl', 'CalendarCtrl']);
